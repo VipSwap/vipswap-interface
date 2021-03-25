@@ -32,6 +32,7 @@ import VotePage from './Vote/VotePage'
 import Invite from './Invite'
 import Inviting from './Invite/Inviting'
 import Airdrop from './Airdrop'
+import Footer from '../components/Footer'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -64,10 +65,10 @@ const BodyWrapper = styled.div`
 
   z-index: 1;
 `
-
-const Marginer = styled.div`
-  margin-top: 5rem;
-`
+//
+// const Marginer = styled.div`
+//   margin-top: 5rem;
+// `
 
 function TopLevelModals() {
   const open = useModalOpen(ApplicationModal.ADDRESS_CLAIM)
@@ -119,8 +120,9 @@ export default function App() {
               <Route component={RedirectPathToSwapOnly} />
             </Switch>
           </Web3ReactManager>
-          <Marginer />
+          {/*<Marginer />*/}
         </BodyWrapper>
+        <Footer />
       </AppWrapper>
     </Suspense>
   )

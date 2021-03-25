@@ -318,5 +318,9 @@
   "AirdropContent_5": "the Direct recommendation coefficient is 0.5; the Indirect recommendation coefficient is 0.25; that is, if a user adds a fund pool, his direct recommender will receive an additional 50% weight of the added funds, and his indirect recommender will receive an additional 25% weight of the added funds;\nFor example: There are A, B, and C in the fund pool, and the added fund pool weight is 100, 200, and 300 respectively. \nThe recommended relationship is A=>B=>C\nThe weight of A=100+200*0.5+300*0.25=275\nThe weight of B=200+300*0.5=350\nThe weight of C = 300\nTotal weight=100+200*0.5+300*0.25+200+300*0.5+300=925 \nEveryone gets the number of airdrops = the total number of airdrops each time * their total weight/total weight",
 
   "AirdropLabel_6": "",
-  "AirdropContent_6": ""
+  "AirdropContent_6": "",
+  "White Paper": "White Paper",
+  "Audit Report": "Audit Report",
+  "English": "English",
+  "Chinese": "Chinese"
 }
